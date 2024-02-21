@@ -1,0 +1,96 @@
+@import '_variables.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fontDefault);
+    background-color: var(--colorSecoundary);
+}
+
+header, footer{
+    font-family: var(--fontHighlight);
+    color: var(--colorSecoundary);
+    background-color: var(--colorBgSecoundary);
+}
+
+header {
+    padding: 0.5rem 2rem;
+}
+
+footer {
+    padding: 0.1rem;
+    text-align: center;
+}
+
+section, article {
+    margin: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+fieldset {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    border: none;
+}
+
+fieldset > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.3rem;
+    gap: 0.5rem;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border: solid 2px var(--colorBgSecoundary);
+    padding: 5px;
+}
+
+thead {
+    width: 100%;
+    background-color: var(--colorBgSecoundary);
+    color: var(--colorSecoundary);
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+}
+
+th {
+    padding: 1rem;
+    text-align: left;
+}
+
+tbody {
+    width: 100%;
+}
+
+td {
+    padding: 1rem;
+    overflow-wrap: break-word;
+}
+
+input[type=submit] {
+    padding: 0.5rem 5rem;
+    border: thin solid var(--colorBgSecoundary);
+    border-radius: 1rem;
+    color: var(--colorSecoundary);
+    background-color: var(--colorBgSecoundary);
+}
+
+tbody > tr:nth-child(even) {
+    background-color: #dfdfdf;
+}
