@@ -20,11 +20,11 @@
           </div>
           <div>
             <label for="txtTitle">Title</label>
-            <input type="txt" id="txtTitle" name="formTitle" size="55%" required>
+            <input type="text" id="txtTitle" name="formTitle" size="55%" required>
           </div>
           <div>
             <label for="txtYear">Year</label>
-            <input type="number" id="txtYear" min="1900" max="2100" name="formPhone" size="25%" required>
+            <input type="number" id="txtYear" class="right" min="1900" max="2100" name="formPhone" size="25%" required>
           </div>
           <div>
             <input type="submit" id="submit" value="Add"/>
@@ -54,7 +54,7 @@
       <tr>
         <td data-field="authors">author_text</td>
         <td data-field="titles">title_text</td>
-        <td data-field="years">year_text</td>
+        <td data-field="years" class="right">year_text</td>
       </tr>
     </template>
     <footer>

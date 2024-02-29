@@ -83,6 +83,10 @@ td {
     overflow-wrap: break-word;
 }
 
+.right {
+    text-align: right;
+}
+
 input[type=submit] {
     padding: 0.5rem 5rem;
     border: thin solid var(--colorBgSecoundary);
